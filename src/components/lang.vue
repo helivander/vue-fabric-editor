@@ -32,6 +32,7 @@ const { locale } = useI18n();
 const LANGMAP = {
   zh: '中文',
   en: 'En',
+  pt: 'Pt',
 };
 
 let langList = reactive(
