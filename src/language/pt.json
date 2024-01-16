@@ -3,7 +3,9 @@
   "elements": "Elementos",
   "background": "Fundo",
   "size": "Tamanho",
+  "rezise": "Redimensionar",
   "width": "Largura",
+  "clearTip": "Isso vai limpar o modelo atual, você tem certeza?",
   "height": "Altura",
   "grid": "Grid",
   "common_elements": "Elementos comuns",
@@ -13,9 +15,9 @@
   "picture": "Imagem",
   "everything_is_fine": "Está tudo bem",
   "everything_goes_well": "Tudo vai bem",
-  "cartoon": "Cartoon",
+  "cartoon": "Desenhos",
   "default_size": "Tamanho padrão",
-  "preview": "Antevisão",
+  "preview": "Prévia",
   "empty": "Vazio",
   "keep": "Salvar",
   "copy_to_clipboard": "Copiar para a área de transferência",
@@ -44,21 +46,24 @@
     "modal_tittle": "Please enter"
   },
   "waterMark": {
-    "text": "WaterMark",
-    "modalTitle": "WaterMark Setting",
+    "text": "Marca D'agua",
+    "modalTitle": "Opções da marca d'agua",
     "setting": {
-        "name": "Mark Name",
-        "size": "MarK Size",
-        "angle": "Mark Angle",
+        "name": "Nome",
+        "size": "Tamanho",
+        "angle": "Angulo",
         "position": {
             "label": "Mark Position",
-            "lt": "Left Top",
-            "rt": "Right Top",
-            "lb": "Left Bottom",
-            "rb": "Right Bottom",
-            "full": "Full"
+            "lt": "Canto esquedo superior",
+            "rt": "Canto direito superior",
+            "lb": "Canto esquedo inferior",
+            "rb": "Canto direito inferior",
+            "full": "Toda a tela"
         }
     }
+  },
+"material": {
+    "cartoon": "Cartoon"
   },
   "upload_background": "Carregar plano de fundo",
   "mouseMenu": {
@@ -79,8 +84,8 @@
     "loading_data": "Carregando dados...",
     "select_image": "Por favor, selecione uma imagem de plano de fundo",
     "select_file": "Selecione um arquivo",
-    "copied_sucessful": "复制成功",
-    "fail_copy": "复制失败"
+    "copied_sucessful": "Copia completa",
+    "fail_copy": "Falha ao copiar"
   },
   "fruits": "Frutas de desenhos animados",
   "sports": "Esportes",
@@ -101,6 +106,12 @@
   "red_book_vertical": "Red Book - V",
   "red_book_horizontal": "Red Book - H",
   "phone_wallpaper": "Phone Wallpaper",
+"setSizeTip": "Definir o tamanho do modelo",
+  "tip": "Dica",
+  "replaceTip": "Isso vai substituir o modelo atual, você tem certeza?",
+  "ok": "OK",
+  "cancel": "Cancelar",
+  "placeholder": "Placeholder",
   "attributes": {
     "id": "ID",
     "font": "Fonte",
@@ -122,5 +133,22 @@
     "offset_x": "X",
     "offset_y": "Y",
     "picture_filter": "Filtro"
+},
+  "history": {
+    "undo": "Desfazer",
+    "revocation": "Revogação",
+    "redo": "Refazer"
+  },
+  "title":{
+    "Modal": "Modal"
+  },
+  "prod":{
+    "ProductName": "Nome produto",
+    "Product": "Produto",
+    "BarCode": "Código de barras",
+    "addProduct": "Adicionar produto",
+    "Price": "Preço",
+    "Description": "Descrição",
+    "SaleRule": "Regra de venda"
   }
 }

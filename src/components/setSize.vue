@@ -17,7 +17,7 @@
         <InputNumber disabled v-model="height" @on-change="setSize"></InputNumber>
       </FormItem>
     </Form>
-    <Button type="primary" @click="() => (showModal = true)">调整尺寸</Button>
+    <Button type="primary" @click="() => (showModal = true)">{{ $t('rezise') }}</Button>
 
     <Modal
       v-model="showModal"
