@@ -44,11 +44,11 @@
 ## 使用
 
 ### 启动项目
-请先安装node.js v16，然后执行以下命令：
+请先安装node.js v16，及pnpm， 然后执行以下命令：
 
 ```
-yarn install
-yarn serve
+pnpm i 
+pnpm dev
 ```
 
 为非web前端开发人员准备了[部署教程](https://t.zsxq.com/0drqSuyjY)，快速解决你的部署需求，你可以联系我进行**有偿的部署、定制开发**。
@@ -56,7 +56,7 @@ yarn serve
 ### 自定义素材
 可自定义字体、设计模板、标题模板等，所有自定义素材在https://github.com/nihaojob/vue-fabric-editor-static 项目中保存。
 
-Pro商业版支持素材管理功能，可以在后台维护字体、模板、字体样式模板、图片素材，支持分类搜索等功能，**快速构建符合自己业务的图片编辑器应用**。
+[Pro商业版](https://nihaojob.github.io/editorDoc/pro/)支持素材管理功能，可以在后台维护字体、模板、字体样式模板、图片素材，支持分类搜索等功能，**快速构建符合自己业务的图片编辑器应用**。
 
 我们通过有偿的方式积累高质量的常见问题、最佳实践文档，欢迎加入星球：
 
@@ -197,6 +197,13 @@ Pro商业版支持素材管理功能，可以在后台维护字体、模板、�
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/ylx252">
+            <img src="https://avatars.githubusercontent.com/u/6425957?v=4" width="80;" alt="ylx252"/>
+            <br />
+            <sub><b>ylx252</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/JiangShuQ">
             <img src="https://avatars.githubusercontent.com/u/95730895?v=4" width="80;" alt="JiangShuQ"/>
             <br />
@@ -211,53 +218,46 @@ Pro商业版支持素材管理功能，可以在后台维护字体、模板、�
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/liucity">
-            <img src="https://avatars.githubusercontent.com/u/12006542?v=4" width="80;" alt="liucity"/>
+        <a href="https://github.com/ddshiyu">
+            <img src="https://avatars.githubusercontent.com/u/37503208?v=4" width="80;" alt="ddshiyu"/>
             <br />
-            <sub><b>liucity</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/icleitoncosta">
-            <img src="https://avatars.githubusercontent.com/u/3260480?v=4" width="80;" alt="icleitoncosta"/>
-            <br />
-            <sub><b>icleitoncosta</b></sub>
+            <sub><b>ddshiyu</b></sub>
         </a>
     </td></tr>
 <tr>
     <td align="center">
-        <a href="https://github.com/Yangzongtai">
-            <img src="https://avatars.githubusercontent.com/u/93592008?v=4" width="80;" alt="Yangzongtai"/>
+        <a href="https://github.com/yehan68">
+            <img src="https://avatars.githubusercontent.com/u/40497166?v=4" width="80;" alt="yehan68"/>
             <br />
-            <sub><b>Yangzongtai</b></sub>
+            <sub><b>yehan68</b></sub>
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/Bamzc">
-            <img src="https://avatars.githubusercontent.com/u/10151046?v=4" width="80;" alt="Bamzc"/>
+        <a href="https://github.com/luke358">
+            <img src="https://avatars.githubusercontent.com/u/48149577?v=4" width="80;" alt="luke358"/>
             <br />
-            <sub><b>Bamzc</b></sub>
+            <sub><b>luke358</b></sub>
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/dulltackle">
-            <img src="https://avatars.githubusercontent.com/u/45963660?v=4" width="80;" alt="dulltackle"/>
+        <a href="https://github.com/xiaozeo">
+            <img src="https://avatars.githubusercontent.com/u/13568242?v=4" width="80;" alt="xiaozeo"/>
             <br />
-            <sub><b>dulltackle</b></sub>
+            <sub><b>xiaozeo</b></sub>
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/macheteHot">
-            <img src="https://avatars.githubusercontent.com/u/26652329?v=4" width="80;" alt="macheteHot"/>
+        <a href="https://github.com/wozhi-cl">
+            <img src="https://avatars.githubusercontent.com/u/25359239?v=4" width="80;" alt="wozhi-cl"/>
             <br />
-            <sub><b>macheteHot</b></sub>
+            <sub><b>wozhi-cl</b></sub>
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/rolitter">
-            <img src="https://avatars.githubusercontent.com/u/27326998?v=4" width="80;" alt="rolitter"/>
+        <a href="https://github.com/vvbear">
+            <img src="https://avatars.githubusercontent.com/u/32010827?v=4" width="80;" alt="vvbear"/>
             <br />
-            <sub><b>rolitter</b></sub>
+            <sub><b>vvbear</b></sub>
         </a>
     </td>
     <td align="center">
@@ -269,45 +269,74 @@ Pro商业版支持素材管理功能，可以在后台维护字体、模板、�
     </td></tr>
 <tr>
     <td align="center">
-        <a href="https://github.com/vvbear">
-            <img src="https://avatars.githubusercontent.com/u/32010827?v=4" width="80;" alt="vvbear"/>
+        <a href="https://github.com/rolitter">
+            <img src="https://avatars.githubusercontent.com/u/27326998?v=4" width="80;" alt="rolitter"/>
             <br />
-            <sub><b>vvbear</b></sub>
+            <sub><b>rolitter</b></sub>
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/wozhi-cl">
-            <img src="https://avatars.githubusercontent.com/u/25359239?v=4" width="80;" alt="wozhi-cl"/>
+        <a href="https://github.com/macheteHot">
+            <img src="https://avatars.githubusercontent.com/u/26652329?v=4" width="80;" alt="macheteHot"/>
             <br />
-            <sub><b>wozhi-cl</b></sub>
+            <sub><b>macheteHot</b></sub>
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/xiaozeo">
-            <img src="https://avatars.githubusercontent.com/u/13568242?v=4" width="80;" alt="xiaozeo"/>
+        <a href="https://github.com/jooyyy">
+            <img src="https://avatars.githubusercontent.com/u/30552622?v=4" width="80;" alt="jooyyy"/>
             <br />
-            <sub><b>xiaozeo</b></sub>
+            <sub><b>jooyyy</b></sub>
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/ylx252">
-            <img src="https://avatars.githubusercontent.com/u/6425957?v=4" width="80;" alt="ylx252"/>
+        <a href="https://github.com/nanfb">
+            <img src="https://avatars.githubusercontent.com/u/56207464?v=4" width="80;" alt="nanfb"/>
             <br />
-            <sub><b>ylx252</b></sub>
+            <sub><b>nanfb</b></sub>
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/luke358">
-            <img src="https://avatars.githubusercontent.com/u/48149577?v=4" width="80;" alt="luke358"/>
+        <a href="https://github.com/dulltackle">
+            <img src="https://avatars.githubusercontent.com/u/45963660?v=4" width="80;" alt="dulltackle"/>
             <br />
-            <sub><b>luke358</b></sub>
+            <sub><b>dulltackle</b></sub>
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/yehan68">
-            <img src="https://avatars.githubusercontent.com/u/40497166?v=4" width="80;" alt="yehan68"/>
+        <a href="https://github.com/Bamzc">
+            <img src="https://avatars.githubusercontent.com/u/10151046?v=4" width="80;" alt="Bamzc"/>
             <br />
-            <sub><b>yehan68</b></sub>
+            <sub><b>Bamzc</b></sub>
+        </a>
+    </td></tr>
+<tr>
+    <td align="center">
+        <a href="https://github.com/Yangzongtai">
+            <img src="https://avatars.githubusercontent.com/u/93592008?v=4" width="80;" alt="Yangzongtai"/>
+            <br />
+            <sub><b>Yangzongtai</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/Alicehhhmm">
+            <img src="https://avatars.githubusercontent.com/u/86783773?v=4" width="80;" alt="Alicehhhmm"/>
+            <br />
+            <sub><b>Alicehhhmm</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/icleitoncosta">
+            <img src="https://avatars.githubusercontent.com/u/3260480?v=4" width="80;" alt="icleitoncosta"/>
+            <br />
+            <sub><b>icleitoncosta</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/liucity">
+            <img src="https://avatars.githubusercontent.com/u/12006542?v=4" width="80;" alt="liucity"/>
+            <br />
+            <sub><b>liucity</b></sub>
         </a>
     </td></tr>
 </table>

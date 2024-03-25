@@ -1,8 +1,8 @@
 /*
  * @Author: 秦少卫
  * @Date: 2023-06-20 12:52:09
- * @LastEditors: June
- * @LastEditTime: 2023-11-07 21:57:19
+ * @LastEditors: 秦少卫
+ * @LastEditTime: 2024-03-05 22:02:19
  * @Description: 内部插件
  */
 import { v4 as uuid } from 'uuid';
@@ -22,9 +22,9 @@ function downFile(fileStr: string, fileType: string) {
   anchorEl.remove();
 }
 
-function transformText(objects) {
+function transformText(objects: any) {
   if (!objects) return;
-  objects.forEach((item) => {
+  objects.forEach((item: any) => {
     if (item.objects) {
       transformText(item.objects);
     } else {
@@ -66,7 +66,7 @@ class ServersPlugin {
     });
   }
 
-  insertSvgFile(jsonFile) {
+  insertSvgFile(jsonFile: string, callback: () => void = null) {
     // 加载前钩子
     this.editor.hooksEntity.hookImportBefore.callAsync(jsonFile, () => {
       this.canvas.loadFromJSON(jsonFile, () => {
@@ -74,13 +74,15 @@ class ServersPlugin {
         // 加载后钩子
         this.editor.hooksEntity.hookImportAfter.callAsync(jsonFile, () => {
           this.canvas.renderAll();
+          // this.editor.getPlugin('HistoryPlugin').history.clear();
+          callback && callback();
         });
       });
     });
   }
 
   getJson() {
-    return this.canvas.toJSON(['id', 'gradientAngle', 'selectable', 'hasControls']);
+    return this.canvas.toJSON(['id', 'gradientAngle', 'selectable', 'hasControls', 'linkData']);
   }
 
   /**
@@ -156,7 +158,7 @@ class ServersPlugin {
 
   _getSaveSvgOption() {
     const workspace = this.canvas.getObjects().find((item) => item.id === 'workspace');
-    const { left, top, width, height } = workspace;
+    const { left, top, width, height } = workspace as fabric.Object;
     return {
       width,
       height,

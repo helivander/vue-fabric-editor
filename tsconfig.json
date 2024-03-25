@@ -6,20 +6,24 @@
     "module": "esnext",
     "moduleResolution": "node",
     "strict": true,
+    "allowJs": true,
     "jsx": "preserve",
     "sourceMap": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
     "esModuleInterop": true,
-    "lib": ["esnext", "dom"],
+    "lib": [
+      "esnext",
+      "dom"
+    ],
     "skipLibCheck": true,
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": [
+        "./src/*"
+      ]
     }
   },
-  "files": [
-    "node_modules/vite-plugin-pwa/client.d.ts"
-  ],
+  "files": [],
   "include": [
     "src/**/*.ts",
     "src/**/*.d.ts",
@@ -27,5 +31,9 @@
     "src/**/*.vue",
     "typings/**/*.ts",
   ],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ]
 }
